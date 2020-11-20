@@ -27,6 +27,10 @@ task zip(type: Zip) {
 	baseName "trainSchedule"
 }
 
+task sayHello doLast {
+	println "Hello World"
+}
+
 //declare task dependencies
 build.dependsOn zip
 zip.dependsOn npm_build
