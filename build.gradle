@@ -28,7 +28,7 @@ task zip(type: Zip) {
 }
 
 task sayHello doLast {
-	println "Hello World"
+	println "Hello World Again"
 }
 
 //declare task dependencies
